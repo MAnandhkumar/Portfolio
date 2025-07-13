@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import {
   Mail,
-  Phone,
   MapPin,
   Github,
   Linkedin,
@@ -237,8 +236,8 @@ const Portfolio = () => {
               </span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Frontend Developer | React.js • TypeScript • Redux <br />
-              3+ years building performant web apps | UI/UX enthusiast <br />
+              Frontend Developer | 3+ years building performant web apps | UI enthusiast <br />
+              React JS | TypeScript | Redux | JavaScript | HTML | CSS <br />
               Translates business needs into clean, scalable solutions
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -511,14 +510,14 @@ const Portfolio = () => {
             <div className="border-t border-gray-200 pt-8">
               <p className="text-gray-600 mb-6">Follow me on social media</p>
               <div className="flex justify-center space-x-6">
-                <a
+                {/* <a
                   href="#"
                   className="p-4 bg-gray-800 text-white rounded-full hover:bg-gray-700 transition-colors duration-200 hover:scale-110"
                 >
                   <Github size={24} />
-                </a>
+                </a> */}
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/anandhkumar-m-621456225"
                   className="p-4 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors duration-200 hover:scale-110"
                 >
                   <Linkedin size={24} />
