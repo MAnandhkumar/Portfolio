@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "hero": {
+    "titlePrefix": "Hi, I'm",
+    "name": "Anandhkumar",
+    "description": "Frontend Developer | 3+ years building performant web apps | UI enthusiast\nReact JS | TypeScript | Redux | JavaScript | HTML | CSS\nTranslates business needs into clean, scalable solutions",
+    "btnContact": "Get In Touch",
+    "btnLearn": "Learn More"
+  },
+  "about": {
+    "title": "About Me",
+    "profileTitle": "Professional Profile",
+    "profileText": "Frontend Developer specializing in React.js, TypeScript, and Redux with 3+ years of experience building responsive, high-performance web apps. Passionate about clean code, UI/UX best practices, and scalable frontend architecture. Proven ability to transform business needs into efficient, user-friendly solutions.",
+    "strengthsTitle": "Key Strengths",
+    "strengths": [
+      "Intrapreneurial mindset (ownership & innovation within teams)",
+      "Highly dedicated & results-driven",
+      "Team collaboration & technical mentoring",
+      "Efficiency-focused"
+    ]
+  },
+  "skills": {
+    "title": "Technical Skills"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "jobs": [
+      {
+        "title": "Software Engineer",
+        "company": "Infiniti Software Solutions",
+        "period": "1 Nov, 2022 - Present",
+        "description": "Developed and maintained multiple client projects using modern web technologies. Collaborated with cross-functional teams to deliver high-quality solutions."
+      },
+      {
+        "title": "Software Trainee",
+        "company": "Infiniti Software Solutions",
+        "period": "18 Jul, 2022 - 31 Oct, 2022",
+        "description": "Built responsive web applications and REST APIs. Resolved cross-browser issues using BrowserStack and Chrome DevTools."
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "degree": "B.E. ECE",
+        "institution": "T.J.S. Engineering College / Anna University",
+        "period": "2014 - 2018",
+        "grade": "8.05 CGPA"
+      },
+      {
+        "degree": "HSC",
+        "institution": "R.M.T. Matric. Hr. Sec. School",
+        "period": "2013 - 2014",
+        "grade": "89.08%"
+      },
+      {
+        "degree": "SSLC",
+        "institution": "R.M.T. Matric. Hr. Sec. School",
+        "period": "2011 - 2012",
+        "grade": "93.2%"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's Connect",
+    "emailLabel": "Email",
+    "locationLabel": "Location",
+    "locationValue": "Chennai, Tamilnadu, India",
+    "socialLabel": "Follow me on social media"
+  }
+}

@@ -1,0 +1,27 @@
+// src/WeatherApp/WeatherApp.scss
+.weather-app {
+    padding: 24px;
+    
+    &.dark {
+      background-color: #141414;
+      min-height: 100vh;
+      
+      .ant-card {
+        background-color: #1f1f1f;
+        color: #fff;
+      }
+      
+      .ant-divider {
+        border-color: #444;
+      }
+    }
+    
+    &.light {
+      background-color: #f0f2f5;
+      min-height: 100vh;
+    }
+    
+    .ant-card {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+  }

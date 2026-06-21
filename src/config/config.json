@@ -1,0 +1,38 @@
+{
+  "portfolio_code": "AK",
+  "layout": {
+    "logo_position": "left",
+    "page_direction": "left",
+    "position": "horizontal"
+  },
+  "accessibility_position": "vertical",
+  "menu_position": "vertical",
+  "url_encryption": true,
+  "storage_encryption": true,
+  "date_format": "MMM DD, YYYY",
+  "encryption_key": "ak",
+  "date_formatter": "%d-%M-%Y",
+  "language": [
+    {
+      "code": "en-US",
+      "text": "English",
+      "flag": "english"
+    },
+    {
+      "code": "ta-IN",
+      "text": "Tamil",
+      "flag": "tamil"
+    }
+  ],
+  "default_lang": "en-US",
+  "time_formatter": "%d %Y",
+  "date_time_formatter": "%d-%M-%Y %H:%i %A",
+  "time_format": {
+    "hour12": true,
+    "hour": "2-digit",
+    "minute": "2-digit"
+  },
+  "dayjs": {
+    "date_format": "D, MMM YYYY"
+  }
+}

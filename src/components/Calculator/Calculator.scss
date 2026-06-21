@@ -1,0 +1,48 @@
+.calculator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  transition: background-color 0.3s;
+}
+
+.calculator-container.dark-mode {
+  background-color: #141414;
+}
+
+.calculator-display {
+  font-family: 'Courier New', monospace;
+}
+
+/* Button animations */
+.ant-btn {
+  transition: all 0.2s;
+}
+
+.ant-btn:hover {
+  transform: translateY(-2px);
+}
+
+.ant-btn:active {
+  transform: translateY(0);
+}
+
+/* History list */
+.ant-list-item {
+  padding: 4px 0 !important;
+}
+
+/* Dark mode adjustments */
+.dark-mode .ant-card {
+  background-color: #1f1f1f;
+  border-color: #333;
+}
+
+.dark-mode .ant-card-head {
+  border-color: #333;
+}
+
+.dark-mode .ant-divider {
+  border-color: #333;
+}

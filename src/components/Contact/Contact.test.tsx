@@ -1,0 +1,10 @@
+import React from "react";
+import { render } from "@testing-library/react";
+import Contact from "./Contact";
+
+describe("Contact Component", () => {
+  it("renders correctly", () => {
+    const { container } = render(<Contact />);
+    expect(container).toBeInTheDocument();
+  });
+});

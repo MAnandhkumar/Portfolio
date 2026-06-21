@@ -1,0 +1,110 @@
+{
+  "unauthMenuRoutes": {
+    "responseCode": 0,
+    "response": {
+      "Message": "Success",
+      "data": {
+        "menu": [],
+        "route": [
+          {
+            "id": 1,
+            "path": "/planB",
+            "layout": "PlanBLayout",
+            "title": "Plan B",
+            "description": "Need to add",
+            "component": "PlanB",
+            "default": true
+          }
+        ]
+      }
+    }
+  },
+  "authMenuRoutes": {
+    "responseCode": 0,
+    "response": {
+      "Message": "Success",
+      "data": {
+        "menu": [
+          {
+            "menu_code": "Interface configuration",
+            "path": "",
+            "icon_name": "FdSettings",
+            "subMenu": [
+              {
+                "id": 20,
+                "menu_code": "Project configuration",
+                "parent_menu": "Interface configuration",
+                "path": "/viewProjects",
+                "icon_name": "FdAdhoc"
+              },
+              {
+                "id": 21,
+                "menu_code": "Menu configuration",
+                "parent_menu": "Interface configuration",
+                "path": "/viewMenuList",
+                "icon_name": "FdPreplanned"
+              }
+            ]
+          }
+        ],
+        "route": [
+          {
+            "route_id": 86,
+            "path": "/planB",
+            "layout": "PlanBLayout",
+            "component": "PlanB",
+            "default": 0,
+            "permission": [
+              "all"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "systemSettings": {
+    "_comment": "System settings configurations",
+    "responseCode": 0,
+    "response": {
+      "Message": "Success",
+      "data": {
+        "portfolio_code": "AK",
+        "layout": {
+          "logo_position": "left",
+          "page_direction": "left",
+          "position": "horizontal"
+        },
+        "accessibility_position": "vertical",
+        "menu_position": "vertical",
+        "url_encryption": true,
+        "storage_encryption": true,
+        "date_format": "MMM DD, YYYY",
+        "encryption_key": "ak",
+        "date_formatter": "%d-%M-%Y",
+        "language": [
+          {
+            "code": "en-US",
+            "text": "English",
+            "flag": "english"
+          },
+          {
+            "code": "hi-IN",
+            "text": "Hindi",
+            "flag": "hindi"
+          }
+        ],
+        "default_lang": "en-US",
+        "time_formatter": "%d %Y",
+        "date_time_formatter": "%d-%M-%Y %H:%i %A",
+        "time_format": {
+          "hour12": true,
+          "hour": "2-digit",
+          "minute": "2-digit"
+        },
+        "dayjs": {
+          "date_format": "D, MMM YYYY"
+        }
+      }
+    }
+  }
+}
